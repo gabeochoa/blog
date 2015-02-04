@@ -31,7 +31,6 @@ target_y = player_y
 player_moving = false
 
 #inside gameloop
-
 if target_x < player_x:
 	target_x += TILESTEP
 if target_x > player_x:
