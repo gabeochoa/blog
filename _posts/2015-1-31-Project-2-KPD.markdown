@@ -10,13 +10,19 @@ tags:
 KPD is a project that I have been working on since december. It is an image downloader for Reddit written in Python. For now it is only runnable from the command line and supports imgur, imgur albums and gfycat webms. [github](https://github.com/gabeochoa/KPD/)
 
 It also has config file support allowing you to specify your own subreddits and keywords to download in this format:
+
 	subreddit :: name, name2, name3 
-	subreddit :: * 
+	subreddit :: *
+	 
 where subreddit is replaced by your own favorite subreddits (ie. Pics) and name... are replaced by the keywords you would like to download. (You can also use * to download all images from that subreddit)
 
-It only searches the title name so if someones dog is called kitty or a person is mistaken on what city the picture was taken in, you might end up with pictures you don't want. Right now there is no way for the program to know what you want (might be possible to do with deep learning algo, feel free to fork the project :) ).
+It only searches the title name so if someone's dog is called kitty or a person is mistaken on what city the picture was taken in, you might end up with pictures you don't want. 
+
+Right now there is no way for the program to know what you want (might be possible to do with deep learning algo, feel free to fork the project :) ).
+
 
 The images are saved in this format:
+
 	subreddit/keyword/postname.extention or
 	subreddit/keyword/postname/filename.extention (for albums)
 
