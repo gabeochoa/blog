@@ -45,16 +45,16 @@ if target_x == player_x and target_y == player_y:
 	player_moving = false
 
 if event.type == pygame.KEYDOWN:
-		if event.key == pygame.K_LEFT and !player_moving:
+		if event.key == pygame.K_LEFT and not player_moving:
 			target_x -= TILEWIDTH
 			player_moving = true
-		if event.key == pygame.K_RIGHT and !player_moving:
+		if event.key == pygame.K_RIGHT and not player_moving:
 			target_x += TILEWIDTH
 			player_moving = true
-		if event.key == pygame.K_UP and !player_moving:
+		if event.key == pygame.K_UP and not player_moving:
 			target_y -= TILEWIDTH
 			player_moving = true
-		if event.key == pygame.K_DOWN and !player_moving:
+		if event.key == pygame.K_DOWN and not player_moving:
 			target_y += TILEWIDTH
 			player_moving = true
 {% endhighlight %}
