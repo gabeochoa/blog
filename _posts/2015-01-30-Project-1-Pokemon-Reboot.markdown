@@ -6,7 +6,7 @@ author: Gabe
 tags: 
 - pygame
 - python
--github
+- github
 ---
 
 This project is a pygame (Python) project started by a friend Brett. His plan was to recreate the generation 3(?) games in pygame to learn about games programming and flex his python muscles. When I joined the project he had I believe about 6k lines of code.
