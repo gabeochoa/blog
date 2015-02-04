@@ -1,6 +1,6 @@
 ---
 published: true
-title: Project 2: KPD
+title: Project 2 KPD
 layout: post
 author: Gabe
 tags:
