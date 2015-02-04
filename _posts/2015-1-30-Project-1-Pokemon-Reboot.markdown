@@ -3,7 +3,11 @@ published: true
 title: Project 1 Pokemon Reboot
 layout: post
 author: Gabe
+<<<<<<< HEAD
 tags:
+=======
+tags: 
+>>>>>>> c2148a900209b80bb5ae78a9013cc1598f26c975
 ---
 
 This project is a pygame (Python) project started by a friend Brett. His plan was to recreate the generation 3(?) games in pygame to learn about games programming and flex his python muscles. When I joined the project he had I believe about 6k lines of code.
@@ -19,7 +23,6 @@ For this project, the main thing I have worked on is the basic player movement a
 <iframe width="500" height="281" id="youtube_iframe" src="https://www.youtube.com/embed/XyLFcIKnzLg?feature=oembed&amp;enablejsapi=1&amp;origin=https://safe.txmblr.com&amp;wmode=opaque" frameborder="0"></iframe>
 
 (Here is a webm of what I implemented, still working on the scrolling camera)
-
 
 For walking the way that we decided to do it was to use a target x and y. Here is an example of what the code looked like before being integrated into the engine. 
 {% highlight python %}
