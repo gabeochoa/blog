@@ -1,6 +1,6 @@
 ---
 published: true
-title: Project 3 Watch Faces
+title: Project 4 Videogrep
 layout: post
 author: Gabe
 tags:
